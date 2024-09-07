@@ -5,4 +5,5 @@ from . import views
 urlpatterns = [
     path('export-playlist/', views.export_playlist, name='export_playlist'),
     path('import-playlist/', views.import_playlist, name='import_playlist'),
+    path('authorization/', views.authorization, name='authorization'),
 ]
